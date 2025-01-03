@@ -21,32 +21,32 @@ function CarouselSection() {
         <CarouselContent>
           <CarouselItem className="">
             <Card>
-              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
-              <CardFooter className="flex justify-around p-3">
+              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/houses.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
+              <CardFooter className="flex justify-around p-3 font-Poppins">
                 Houses
               </CardFooter>
             </Card>
           </CarouselItem>
           <CarouselItem className="">
             <Card>
-              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
-              <CardFooter className="flex justify-around p-3">
+              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/apartments.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
+              <CardFooter className="flex justify-around p-3 font-Poppins">
                 Apartments
               </CardFooter>
             </Card>
           </CarouselItem>
           <CarouselItem className="">
             <Card>
-              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
-              <CardFooter className="flex justify-around p-3">
+              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/offices.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
+              <CardFooter className="flex justify-around p-3 font-Poppins">
                 Offices
               </CardFooter>
             </Card>
           </CarouselItem>
           <CarouselItem className="">
             <Card>
-              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
-              <CardFooter className="flex justify-around p-3">
+              <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/postconstruction.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
+              <CardFooter className="flex justify-around p-3 font-Poppins">
                 Postconstruction
               </CardFooter>
             </Card>
