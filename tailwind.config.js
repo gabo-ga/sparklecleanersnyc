@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
   	extend: {
+		fontFamily: {
+			Poppins: ['"Poppins"', 'sans-serif'],
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

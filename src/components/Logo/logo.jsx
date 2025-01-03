@@ -7,7 +7,9 @@ function Logo() {
           alt="logo"
           class="h-10 w-7"
         />
-        <h1 class="text-white text-sm font-medium">Spark Cleaners nyc</h1>
+        <h1 class="text-white text-sm font-semibold font-Poppins">
+          Sparkle Cleaners nyc
+        </h1>
       </div>
     </div>
   );
