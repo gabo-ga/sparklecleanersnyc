@@ -10,7 +10,7 @@ function Header() {
       <div class="bg-blue-900 flex items-center justify-between h-12">
         <Logo></Logo>
         <div class="flex items-center gap-1">
-          <Button variant="destructive" size="sm">
+          <Button variant="destructive" size="sm" className="font-Poppins">
             BOOK NOW
           </Button>
           <SidebarTrigger />
