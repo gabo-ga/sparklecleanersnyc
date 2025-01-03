@@ -1,9 +1,25 @@
-function Carousel() {
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+function CarouselSection() {
   return (
-    <div>
-      <h1>Carousel</h1>
-    </div>
+    <>
+      <Carousel>
+        <CarouselContent>
+          <CarouselItem className="basis-1/3"></CarouselItem>
+          <CarouselItem></CarouselItem>
+          <CarouselItem></CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
+    </>
   );
 }
 
-export default Carousel;
+export default CarouselSection;
