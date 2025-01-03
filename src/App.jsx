@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./layout/Header/header";
 import { SidebarProvider, SidebarTrigger } from "./components/ui/sidebar";
 import AppSidebar from "./components/AppSidebar/sidebar";
+import HomePage from "./pages/homepage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <SidebarProvider>
-        <Header />
+        <HomePage />
         <AppSidebar />
       </SidebarProvider>
     </>
