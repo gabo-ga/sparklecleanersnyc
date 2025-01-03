@@ -5,12 +5,14 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 
 function Header() {
   return (
-    <header>
+    <header class="w-full">
       <Info></Info>
-      <div class="bg-blue-900 flex items-center gap-16 h-12 w-full">
+      <div class="bg-blue-900 flex items-center justify-between h-12">
         <Logo></Logo>
-        <div class="flex items-center gap-2">
-          <Button variant="destructive">BOOK NOW</Button>
+        <div class="flex items-center gap-1">
+          <Button variant="destructive" size="sm">
+            BOOK NOW
+          </Button>
           <SidebarTrigger />
         </div>
       </div>
