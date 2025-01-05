@@ -1,6 +1,6 @@
 function Contact() {
   const handleWhatsappClick = () => {
-    window.location.href = "wa.link/dmv3hy";
+    window.location.href = "https://wa.link/dmv3hy";
   };
 
   const handleImessageClick = () => {

@@ -4,7 +4,8 @@ import Logo from "../../components/Logo/logo";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 
 const handleClick = () => {
-  window.location.href = "wa.link/dmv3hy";
+  window.location.href = "https://wa.link/dmv3hy";
+  console.log(clic);
 };
 
 function Header() {

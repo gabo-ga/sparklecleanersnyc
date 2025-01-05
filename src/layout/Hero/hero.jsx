@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 const handleClick = () => {
-  window.location.href = "wa.link/dmv3hy";
+  window.location.href = "https://wa.link/dmv3hy";
 };
 
 function Hero() {
@@ -18,7 +18,7 @@ function Hero() {
         <Button
           variant="destructive"
           className="font-Poppins"
-          onclick={handleClick}
+          onClick={handleClick}
         >
           BOOK NOW
         </Button>
