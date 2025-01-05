@@ -11,21 +11,10 @@ function Contact() {
           scheduling, customized plans, same-day cleaning and reliable services.
           Trust us to transform your space.
         </p>
-        <div class="flex flex-row items-start gap-5 text-xl font-semibold text-[#aae858] font-Poppins">
+        <div class="flex flex-row items-start gap-3 text-xl font-semibold text-[#aae858] font-Poppins">
           <h3>Send us a message!</h3>
-          <img
-            src="/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/whatsapp_logo.png"
-            alt="whatsapp logo"
-            width="30"
-            height="30"
-          />
-
-          <img
-            src="./images/messages_logo.jpeg"
-            alt="messages logo"
-            width="30"
-            height="30"
-          />
+          <div class="stroke-white bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/whatsapp_logo.png')] bg-cover bg-no-repeat size-7"></div>
+          <div class="stroke-white bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/messages_logo.jpeg')] bg-cover bg-no-repeat size-7"></div>
         </div>
       </div>
     </article>
