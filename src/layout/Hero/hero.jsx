@@ -1,5 +1,9 @@
 import { Button } from "@/components/ui/button";
 
+const handleClick = () => {
+  window.location.href = "wa.link/dmv3hy";
+};
+
 function Hero() {
   return (
     <div class="h-auto w-auto bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
@@ -11,7 +15,11 @@ function Hero() {
           Hi! we are a professional cleaning company offering personalized
           cleaning services
         </p>
-        <Button variant="destructive" className="font-Poppins">
+        <Button
+          variant="destructive"
+          className="font-Poppins"
+          onclick={handleClick}
+        >
           BOOK NOW
         </Button>
       </div>
