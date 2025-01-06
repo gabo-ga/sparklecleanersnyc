@@ -14,7 +14,7 @@ function Header() {
       <Info></Info>
       <div class="bg-blue-900 flex items-center justify-between h-12 md:h-16">
         <Logo></Logo>
-        <div class="flex items-center gap-3 p-3">
+        <div class="flex items-center gap-3 p-3 md:gap-8">
           <div class="text-white font-Poppins font-medium hidden md:block text-lg">
             ABOUT US
           </div>
