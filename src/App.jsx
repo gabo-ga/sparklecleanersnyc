@@ -8,8 +8,6 @@ import AppSidebar from "./components/AppSidebar/sidebar";
 import HomePage from "./pages/homepage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <SidebarProvider>
