@@ -12,19 +12,25 @@ function Header() {
   return (
     <header class="w-full">
       <Info></Info>
-      <div class="bg-blue-900 flex items-center justify-between h-12">
+      <div class="bg-blue-900 flex items-center justify-between h-12 md:h-16">
         <Logo></Logo>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-3 p-3">
+          <div class="text-white font-Poppins font-medium hidden md:block text-lg">
+            ABOUT US
+          </div>
+          <div class="text-white font-Poppins font-medium hidden md:block text-lg">
+            CONTACT US
+          </div>
           <Button
             variant="destructive"
             size="sm"
-            className="font-Poppins"
+            className="font-Poppins text-base md:text-lg"
             onClick={handleClick}
           >
             BOOK NOW
           </Button>
 
-          <SidebarTrigger />
+          <SidebarTrigger className="md:hidden" />
         </div>
       </div>
     </header>

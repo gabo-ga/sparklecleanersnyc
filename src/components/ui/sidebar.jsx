@@ -185,7 +185,7 @@ const Sidebar = React.forwardRef(
     return (
       <div
         ref={ref}
-        className="group peer hidden md:block text-sidebar-foreground"
+        className="group peer hidden text-sidebar-foreground"
         data-state={state}
         data-collapsible={state === "collapsed" ? collapsible : ""}
         data-variant={variant}
@@ -239,14 +239,14 @@ const SidebarTrigger = React.forwardRef(
         data-sidebar="trigger"
         variant="primary"
         size="icon"
-        className={cn("h-12 w-12 bg-transparent", className)}
+        className={cn("h-8 w-6 bg-transparent", className)}
         onClick={(event) => {
           onClick?.(event);
           toggleSidebar();
         }}
         {...props}
       >
-        <PanelLeft class="text-white size-6" />
+        <PanelLeft class="text-white size-10" />
         <span className="sr-only">Toggle Sidebar</span>
       </Button>
     );
