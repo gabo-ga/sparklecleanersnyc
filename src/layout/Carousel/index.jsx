@@ -16,10 +16,10 @@ import {
 
 function CarouselSection() {
   return (
-    <div class="max-w-screen overflow-hidden flex items-center justify-center">
-      <Carousel className="py-8 px-3 h-auto w-8/12 max-w-[100vw]">
+    <div class="w-full overflow-hidden flex items-center justify-center">
+      <Carousel className="py-8 px-3 h-auto w-8/12 max-w-[100vw] lg:w-full">
         <CarouselContent>
-          <CarouselItem className="">
+          <CarouselItem className="md:basis-1/2 lg:basis-1/4">
             <Card>
               <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/houses.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
               <CardFooter className="flex justify-around p-3 font-Poppins">
@@ -27,7 +27,7 @@ function CarouselSection() {
               </CardFooter>
             </Card>
           </CarouselItem>
-          <CarouselItem className="">
+          <CarouselItem className="md:basis-1/2 lg:basis-1/4">
             <Card>
               <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/apartments.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
               <CardFooter className="flex justify-around p-3 font-Poppins">
@@ -35,7 +35,7 @@ function CarouselSection() {
               </CardFooter>
             </Card>
           </CarouselItem>
-          <CarouselItem className="">
+          <CarouselItem className="md:basis-1/2 lg:basis-1/4">
             <Card>
               <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/offices.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
               <CardFooter className="flex justify-around p-3 font-Poppins">
@@ -43,7 +43,7 @@ function CarouselSection() {
               </CardFooter>
             </Card>
           </CarouselItem>
-          <CarouselItem className="">
+          <CarouselItem className="md:basis-1/2 lg:basis-1/4">
             <Card>
               <CardContent className="bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/postconstruction.jpg')] bg-cover h-36 rounded-t-md"></CardContent>
               <CardFooter className="flex justify-around p-3 font-Poppins">
@@ -52,8 +52,8 @@ function CarouselSection() {
             </Card>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="lg:hidden" />
+        <CarouselNext className="lg:hidden" />
       </Carousel>
     </div>
   );
