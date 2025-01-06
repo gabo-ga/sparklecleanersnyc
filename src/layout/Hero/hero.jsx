@@ -6,18 +6,21 @@ const handleClick = () => {
 
 function Hero() {
   return (
-    <div class="h-auto w-auto bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
+    <div
+      class="h-auto w-screen bg-[url('/Users/gabrielgonzales/Documents/sparkle-cleaners/sparklecleanersnyc/src/assets/background.jpg')] bg-cover bg-center bg-no-repeat opacity-90
+              flex items-start justify-start px-2 py-4 md:h-96 md:px-6 md:py-12"
+    >
       <div class="flex my-3 mx-6 py-4 flex-col items-start gap-1.5 h-56">
-        <h1 class="text-lg font-medium font-Poppins">
+        <h1 class="text-lg font-medium font-Poppins md:text-2xl">
           EXPERT CLEANING AT YOUR DOORSTEP
         </h1>
-        <p class="text-sm font-normal font-Poppins">
-          Hi! we are a professional cleaning company offering personalized
-          cleaning services
+        <p class="text-sm font-normal font-Poppins md:text-lg">
+          Hi! we are a professional cleaning company <br />
+          offering personalized cleaning services
         </p>
         <Button
           variant="destructive"
-          className="font-Poppins"
+          className="font-Poppins md:text-lg"
           onClick={handleClick}
         >
           BOOK NOW

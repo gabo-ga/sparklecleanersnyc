@@ -15,10 +15,10 @@ function Header() {
       <div class="bg-blue-900 flex items-center justify-between h-12 md:h-16">
         <Logo></Logo>
         <div class="flex items-center gap-3 p-3 md:gap-8">
-          <div class="text-white font-Poppins font-medium hidden md:block text-lg">
+          <div class="text-white text-base font-Poppins font-medium hidden md:block md:text-lg">
             ABOUT US
           </div>
-          <div class="text-white font-Poppins font-medium hidden md:block text-lg">
+          <div class="text-white text-base font-Poppins font-medium hidden md:block md:text-lg">
             CONTACT US
           </div>
           <Button
