@@ -11,7 +11,7 @@ function HomePage() {
       <Hero></Hero>
       <CarouselSection></CarouselSection>
       <Contact></Contact>
-      <Footer></Footer>
+      {/*<Footer></Footer>*/}
     </>
   );
 }
