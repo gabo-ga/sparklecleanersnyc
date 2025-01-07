@@ -8,13 +8,13 @@ function Contact() {
   };
 
   return (
-    <div class="flex flex-row w-full items-center md:justify-center gap-5">
+    <div class="flex flex-row w-full items-center md:justify-center gap-5 py-3">
       <article>
         <div class="flex flex-col items-center justify-center gap-5 px-9 py-5 max-w-md">
           <h2 class="text-black text-xl font-medium font-Poppins">
             Amazing benefits!
           </h2>
-          <p class="text-justify items-center text-sm font-Poppins text-wrap">
+          <p class="text-justify items-center text-sm font-Poppins text-wrap md:text-md">
             Choose us for exceptional cleaning tailores to New Yorkes. Our
             trained and professional team ensure a spotless, safe home. Enjoy
             flexible scheduling, customized plans, same-day cleaning and
